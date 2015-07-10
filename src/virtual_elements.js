@@ -202,7 +202,7 @@ var elementOpen = function(tag, key, statics, var_args) {
  * Declares a virtual Element at the current location in the document. This
  * corresponds to an opening tag and a elementClose tag is required. This is
  * like elementOpen, but the attributes are defined using the attr function
- * rather than being passed as arguments. Must be folllowed by 0 or more calls
+ * rather than being passed as arguments. Must be followed by 0 or more calls
  * to attr, then a call to elementOpenEnd.
  * @param {string} tag The element's tag.
  * @param {?string} key The key used to identify this element. This can be an
